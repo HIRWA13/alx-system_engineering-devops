@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# this script displays numbers from 1 to 100 but,
+# displays "FizzBuzz" when the number is a multiple of 3 and 5
+# displays "Fizz" when the number is a multiple of 3
+# displays "Buzz" when the number is a multiple of 5
+# otherwise, it display the number
+# the numbers are listed in a list format
+
+for number in {1..100}
+do
+	if (( number % 3 == 0 && number % 5 == 0 ))
+	then
+		echo "FizzBuzz"
+	elif (( number % 3 == 0 ))
+	then
+		echo "Fizz"
+	elif (( number % 5 == 0 ))
+	then
+		echo "Buzz"
+	else
+		echo"$number"
+	fi
+done
+
