@@ -5,7 +5,7 @@
 # display "Best School" on other iterations
 
 count=0
-i
+
 while [ $count -lt 10 ]
 do
 	if [ $count -eq 3 ]
