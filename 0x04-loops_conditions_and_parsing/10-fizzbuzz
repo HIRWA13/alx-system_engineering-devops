@@ -21,4 +21,3 @@ do
 		echo"$number"
 	fi
 done
-
